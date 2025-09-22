@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main (){
+    float radius , cir_area , sq_length , sq_area , sq_peri , rec_area , rec_peri , rec_length , rec_breadth;
+
+    printf ("enter radius\n");
+    scanf ("%f",&radius);
+    cir_area = 3.14 * radius * radius;
+    printf ("cir_area is : %f\n" , cir_area );
+
+    printf ("enter length\n");
+    scanf ("%f",&sq_length);
+    sq_area = sq_length * sq_length;
+    sq_peri = 4 * sq_length ;
+
+    printf ("sq_area is : %f\n" , sq_area);
+    printf("sq_peri is : %f\n" , sq_peri);
+
+    printf ("enter rec_length\n");
+    scanf ("%f",&rec_length);
+
+    printf ("enter rec_breadth\n");
+    scanf ("%f" ,&rec_breadth);
+
+    rec_area = rec_length * rec_breadth;
+    rec_peri = 2 * (rec_length + rec_breadth);
+    printf ("rec_area is : %f\n " , rec_area);
+    printf ("rec_peri is : %f\n " , rec_peri);
+
+    return 0;
+}
