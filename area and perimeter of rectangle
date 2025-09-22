@@ -1,0 +1,14 @@
+# include<stdio.h>
+int main (){
+  float length , breadth , area , perimeter;
+
+    printf ("enter length\n ");
+    scanf ("%f",&length);
+    printf ("enter breadth\n ");
+    scanf ("%f",&breadth);
+    area = length * breadth;
+    perimeter = 2 * (length + breadth);
+    printf ("area is : %f\n",area);
+    printf ("perimeter is : %f\n",perimeter);
+    return 0 ;
+}
