@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int A , B , C , D , Total;
+    printf ("enter A\n");
+    scanf ("%d",&A);
+    printf ("enter B\n");
+    scanf ("%d",&B);
+    printf ("enteer C\n");
+    scanf ("%d",&C);
+    printf ("enter D\n");
+    scanf ("%d",&D);
+
+Total = ( A * B + C / D ) + ( C * D + A / B );
+
+printf ("Total is : %d",Total);
+
+return 0 ;
+
+}
