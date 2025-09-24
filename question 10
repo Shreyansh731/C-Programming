@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+   
+    long total_seconds;
+
+    printf("Enter time in seconds: ");
+    
+    scanf("%ld", &total_seconds);
+
+    long hours = total_seconds / 3600; 
+
+    long remaining_seconds = total_seconds % 3600;
+
+    long minutes = remaining_seconds / 60;
+
+    long seconds = remaining_seconds % 60;
+
+    printf("Converted time: %ld hours, %ld minutes, %ld seconds\n", hours, minutes, seconds);
+
+    return 0; 
+}
